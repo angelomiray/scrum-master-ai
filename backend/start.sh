@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script para iniciar o backend do Agente Scrum
+# Script para iniciar o backend do Scrum Master AI
 
 cd "$(dirname "$0")"
 

@@ -8,7 +8,7 @@ from database import Database
 from agent import prioritize_tasks
 from agent_intelligence import AgentIntelligence
 
-app = FastAPI(title="Agente Scrum - Task Manager Inteligente")
+app = FastAPI(title="Scrum Master AI - Task Manager Inteligente")
 
 # Configuração CORS para permitir requisições do React
 app.add_middleware(
@@ -27,7 +27,7 @@ agent = AgentIntelligence(db)
 @app.get("/")
 def read_root():
     return {
-        "message": "Agente Scrum API - Sistema de Priorização Inteligente",
+        "message": "Scrum Master AI API - Sistema de Priorização Inteligente",
         "features": [
             "Gestão de tarefas (CRUD)",
             "Priorização inteligente",

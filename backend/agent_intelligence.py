@@ -193,7 +193,7 @@ class AgentIntelligence:
     
     def adaptive_learning(self, ignored_task_id: int):
         """
-        🤖 Aprendizado adaptativo
+        Aprendizado adaptativo
         Ajusta pesos quando usuário ignora sugestão
         """
         # Incrementa contador de ignorados
